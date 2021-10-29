@@ -1,13 +1,11 @@
 <template>
-  <div id="agt-admin-app">{{ msg }}</div>
+  <router-view />
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      msg: "hello from data",
-    };
+    return {};
   },
 };
 </script>
