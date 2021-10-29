@@ -19,7 +19,8 @@ step-1:
    createApp(App).mount('#agt-admin-app')
 
 6. on App.vue:
-<template>
+
+"<template>
   <div id="agt-admin-app">{{ msg }}</div>
 </template>
 <script>
@@ -30,7 +31,7 @@ export default {
     };
   },
 };
-</script>
+</script>"
 
 step-2: install laravel-mix and setup this
 
@@ -44,6 +45,7 @@ step-2: install laravel-mix and setup this
    mix.js('src/main.js', 'assets/admin/admin.js').vue({ version: 3 });
 
 4. replace scripts with these text on package.json
+"
    "scripts": {
    "development": "mix",
    "watch": "mix watch",
@@ -51,6 +53,7 @@ step-2: install laravel-mix and setup this
    "hot": "mix watch --hot",
    "production": "mix --production"
    },
+"
 
 step-3: register and enqueue scripts from wordpress side and target 'assets/admin/admin.js'
 
