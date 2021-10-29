@@ -1,0 +1,18 @@
+{
+  "name": "dhrup/awesome-goal-tracker",
+  "description": "this superb plugin helps you to track your goals",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "autoload": {
+    "psr-4": {
+      "AGT\\Includes\\": "includes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dhrupo",
+      "email": "dhrupo@gmail.com"
+    }
+  ],
+  "require": {}
+}
