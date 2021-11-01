@@ -1,5 +1,5 @@
 <template>
-  <div>hi from about page</div>
+  <div>About Us!</div>
 </template>
 
 <script>

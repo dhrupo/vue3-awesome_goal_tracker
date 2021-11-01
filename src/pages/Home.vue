@@ -1,12 +1,11 @@
 <template>
-  <goal-list></goal-list>
-  <el-button type="primary">Primary</el-button>
+  <CourseGoal></CourseGoal>
 </template>
 
 <script>
-import GoalList from "../components/GoalList.vue";
+import CourseGoal from "../components/CourseGoal.vue";
 export default {
-  components: { GoalList },
+  components: { CourseGoal },
 };
 </script>
 
